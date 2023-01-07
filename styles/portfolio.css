@@ -5,29 +5,38 @@
 .header{
     background: url('../images/banner/banner3.png');
     width: 1600px;
-    height: 808px;
+    height: 850px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    
 }
 .banner{
     text-align: right;
     width: 500px;
     height: 80px;
     margin-left: 650px;
+    margin-top: 150px;
+    
+
     
     
 }
 .banner-title{
     color: antiquewhite;
     font-family: 'Work Sans';
-    font-weight: 700;
-    font-size: 65px;
+    font-weight: 600;
+    font-size: 60px;
+
     
 
 }
 .banner-description{
     color: antiquewhite;
     font-family: 'Work Sans';
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .primary-btn{
     color: blue;
@@ -48,29 +57,34 @@
     
 }
 .person-image{
+    margin-bottom: 10px;
+    
 
 }
 .image-content{
     font-family: 'Work Sans';
     margin-left: 100px;
     
+    
   
     
 }
 .image-title{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 50px;
+    margin-bottom: 25px;
     
 
 }
 .image-description{
      font-size: 16px;
      font-weight: 400;
-     margin-top: 20px;
-     margin-bottom: 20px;
+     margin-top: 10px;
+     margin-bottom: 40px;
 
 }
 .point{
+    margin-bottom: 10px;
     
 }
 .second-section{
@@ -80,6 +94,7 @@
     font-weight: 800;
     font-size: 50px;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 .plans-container{
@@ -104,5 +119,109 @@
     font-size: 20px;
     
 }
+/* third section */
+.third-section{
+    background: url('/images/watch.png');    
+    width: 1200px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    
+    
 
+}
+.advice{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-left: 20px;
+    
+
+}
+.advice-1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800; 
+    margin-left: 20px; 
+    margin-bottom: 15px;
+}
+.blue-btn{
+    margin-left: 20px;
+    color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+/* footer */
+.footer{
+    background-color: black;
+
+}
+.future{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding: 100px;
+
+}
+.future-content{
+
+}
+.future-title{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.future-description{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+.address{
+    color: white;
+    margin-bottom: 15px;
+
+}
+.input-content{
+    margin-left: 250px;
+
+}
+.orange-btn{
+    color: orangered;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}
+input{
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+img{
+    margin-right: 10px;
+}
 
