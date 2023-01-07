@@ -1,16 +1,27 @@
 *{
     margin: 0;
 }
+
 .header{
     background: url('../images/banner/banner3.png');
     width: 1600px;
     height: 808px;
+}
+.banner{
+    text-align: right;
+    width: 500px;
+    height: 80px;
+    margin-left: 650px;
+    
+    
 }
 .banner-title{
     color: antiquewhite;
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 65px;
+    
+
 }
 .banner-description{
     color: antiquewhite;
@@ -27,9 +38,48 @@
     font-weight: 600;
     font-size: 20px;
 }
-.banner{
-    text-align: right;
-    width: 500px;
-    height: 80px;
-    margin-left: 550px;
+
+/* first section */
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 100px;
+    
 }
+.person-image{
+
+}
+.image-content{
+    font-family: 'Work Sans';
+    margin-left: 100px;
+    
+  
+    
+}
+.image-title{
+    font-weight: 800;
+    font-size: 50px;
+    
+
+}
+.image-description{
+     font-size: 16px;
+     font-weight: 400;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+}
+.point{
+    
+}
+.second-section{
+
+}
+.my-plans{
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+
+
