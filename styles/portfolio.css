@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.header{
+    background: url('../images/banner/banner3.png');
+    width: 1600px;
+    height: 808px;
+}
+.banner-title{
+    color: antiquewhite;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-description{
+    color: antiquewhite;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.primary-btn{
+    color: blue;
+    background:white;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.banner{
+    text-align: right;
+    width: 500px;
+    height: 80px;
+    margin-left: 550px;
+}
