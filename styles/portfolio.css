@@ -14,7 +14,7 @@
     text-align: right;
     width: 500px;
     height: 80px;
-    margin-left: 650px;
+    margin-left: 680px;
     margin-top: 150px;
     
 
@@ -37,6 +37,7 @@
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 30px;
 }
 .primary-btn{
     color: blue;
@@ -121,7 +122,7 @@
 }
 /* third section */
 .third-section{
-    background: url('/images/watch.png');    
+    background-image: url('/images/watch.png');    
     width: 1200px;
     height: 400px;
     background-repeat: no-repeat;
@@ -159,6 +160,14 @@
     font-size: 20px;
     font-weight: 600;
 
+}
+.fourth-section{
+    background: rgb(107, 121, 202);
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 20px;
 }
 /* footer */
 .footer{
@@ -199,13 +208,14 @@
     margin-left: 250px;
 
 }
-.orange-btn{
-    color: orangered;
+.white-btn{
+    color: white;
     border: 0;
     border-radius: 5px;
     padding: 15px;
     font-size: 16px;
     font-weight: 600;
+    background-color: blue;
     
 
 }
