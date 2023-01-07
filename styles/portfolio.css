@@ -80,6 +80,29 @@
     font-weight: 800;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 150px ;
+}
+.plans{
+    text-align: center;
+
+}
+.plans-title{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.plans-description{
+    color: grey;
+    font-size: 20px;
+    
 }
 
 
